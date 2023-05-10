@@ -6,17 +6,17 @@
           "OpenMacro": "Otwórz ”{name}”"
         },
         "Notifications": {
-          "NoQuest": "Błąd interfejsu API: nie można utworzyć makra z nieprawidłowym identyfikatorem Misja."
+          "NoQuest": "Błąd interfejsu API: nie można utworzyć makra z nieprawidłowym identyfikatorem zadania."
         }
       },
       "QuestDB": {
         "Labels": {
-          "NewQuest": "Nowa Misja"
+          "NewQuest": "Nowe Zadanie"
         }
       },
       "Socket": {
         "Notifications": {
-          "RewardDrop": "FQL (nagroda za misję): {userName} umieszczony '{itemName}' na {actorName}."
+          "RewardDrop": "FQL (nagroda za zadanie): {userName} przeniósł '{itemName}' na {actorName}."
         }
       },
       "Utils": {
@@ -28,7 +28,7 @@
     },
     "DeleteDialog": {
       "BodyObjective": "Cel ten i jego dane zostaną trwale usunięte.",
-      "BodyQuest": "Ta misja i jej dane zostaną trwale usunięte.",
+      "BodyQuest": "To zadanie i jego dane zostaną trwale usunięte.",
       "BodyReward": "Ta nagroda i jej dane zostaną trwale usunięte.",
       "Cancel": "Anuluj",
       "Delete": "Usuń",
@@ -37,148 +37,148 @@
     },
     "Labels": {
       "AppHeader": {
-        "ShowPlayers": "Pokaż do Graczom"
+        "ShowPlayers": "Pokaż Graczom"
       },
-      "Quest": "Misja"
+      "Quest": "Zadanie"
     },
     "Migration": {
       "ChatMessage": {
-        "Footer": "Musisz ręcznie zaktualizować powyższe misje prawidłowymi danymi dokumentów z kompendiów lub twojego świata.<br>",
-        "Header": "Forien's Quest Log (DB migracja)<br>Usunięto nie połączone zleceniodawcy lub nagrody z poniższych zadań:<p>",
-        "Notification": "Forien's Quest Log - Usunięto nie połączone zleceniodawcy lub nagrody z jednego lub więcej zadań. Przejrzyj wiadomość na czacie, aby uzyskać więcej informacji.",
-        "QuestGiver": "Zleceniodawca Zadań",
-        "QuestRewards": "Nagrody za Zadania"
+        "Footer": "Musisz ręcznie zaktualizować powyższe zadania prawidłowymi danymi dokumentów z kompendiów lub twojego świata.<br>",
+        "Header": "Forien's Quest Log (DB migracja)<br>Usunięto niepołączonych zleceniodawców lub nagrody z poniższych zadań:<p>",
+        "Notification": "Forien's Quest Log - Usunięto niepołączonych zleceniodawców lub nagrody z jednego lub więcej zadań. Przejrzyj wiadomość na czacie, aby uzyskać więcej informacji.",
+        "QuestGiver": "Zleceniodawca",
+        "QuestRewards": "Nagrody"
       },
       "Notifications": {
         "Complete": "Forien's Quest Log - Migracja danych zakończona.",
-        "CouldNotMigrate": "Forien's Quest Log - Nie udało się przenieść misji: '{name}'.",
+        "CouldNotMigrate": "Forien's Quest Log - Nie udało się zmigrować zadania: '{name}'.",
         "Schema": "Forien's Quest Log - Migracja danych do wersji schematu '{version}'.",
-        "Start": "Forien's Quest Log - Migracja danych, nie ładuj przeładować."
+        "Start": "Forien's Quest Log - Migracja danych, proszę nie przeładowuj strony."
       }
     },
     "Notifications": {
-      "CannotOpen": "Nie można otworzyć szczegółów misji. Ta misja może nie być obserwowalna lub może już nie istnieć.",
-      "FinishQuestAdded": "Zakończ edycję i zamknij bieżącą misję przed dodaniem kolejnej.",
-      "LinkCopied": "Link do dokumentu dla tej misji został skopiowany do schowka.",
-      "QuestAdded": "Dodany '{name}' jako nowa misja ze statusem: '{status}'.",
-      "QuestIDCopied": "Identyfikator dokumentu tej misji został skopiowany do schowka.",
-      "QuestMoved": "Wzruszony '{name}' i ustaw nowy status na: '{target}'.",
-      "QuestPrimary": "'{name}' to nowa główna misja.",
-      "QuestTrackerNoActive": "Śledzenie misji jest włączone, ale obecnie nie ma żadnych misji w toku.",
-      "UserCantOpen": "Użytkownik '{user}' nie posiada uprawnień do otwarcia tej Misji."
+      "CannotOpen": "Nie można otworzyć szczegółów zadania. Może być ono niewidoczne lub już nie istnieć.",
+      "FinishQuestAdded": "Zakończ edycję i zamknij bieżące zadanie przed dodaniem kolejnego.",
+      "LinkCopied": "Link do dokumentu dla tego zadania został skopiowany do schowka.",
+      "QuestAdded": "Dodano '{name}' jako nowe zadanie o statusie: '{status}'.",
+      "QuestIDCopied": "ID tego zadania zostało skopiowane do schowka.",
+      "QuestMoved": "Przeniesiono '{name}' i ustawiono nowy status jako: '{target}'.",
+      "QuestPrimary": "'{name}' to nowe zadanie główne.",
+      "QuestTrackerNoActive": "Śledzenie zadań jest włączone, ale obecnie nie ma żadnych zadań w toku.",
+      "UserCantOpen": "Użytkownik '{user}' nie posiada uprawnień do otwarcia tego zadania."
     },
     "QuestLog": {
       "Buttons": {
-        "AddQuest": "Dodaj misję"
+        "AddQuest": "Dodaj Zadanie"
       },
       "ContextMenu": {
         "CopyEntityLink": "Skopiuj link treści encji",
-        "CopyQuestID": "Skopiuj identyfikator misji",
-        "PrimaryQuest": "Ustaw / wyłącz jako misję główną"
+        "CopyQuestID": "Skopiuj ID Zadania",
+        "PrimaryQuest": "Włączy/Wyłącz status zadania głównego"
       },
       "Labels": {
-        "TableHeader": "{0} Misje",
+        "TableHeader": "{0} Zadań",
         "SubTitle": "Zadanie podrzędne z {0}"
       },
-      "Title": "Dziennik Misji",
+      "Title": "Dziennik Zadań",
       "Tooltips": {
         "Objectives": "Cele"
       }
     },
     "QuestPreview": {
       "Buttons": {
-        "RewardCustom": "Określony przez użytkownika",
-        "RewardHide": "Schowaj",
+        "RewardCustom": "Niestandardowa",
+        "RewardHide": "Ukryj",
         "RewardLock": "Zablokuj",
-        "RewardShow": "Pokazać",
-        "RewardUnlock": "Odemknąć"
+        "RewardShow": "Pokaż",
+        "RewardUnlock": "Odblokuj"
       },
       "Labels": {
         "CustomSource": "Niestandardowe źródło",
         "Description": "Opis:",
-        "DragDropActor": "Przeciągnij i upuść aktora, przedmiot lub wpis do dziennika lub kliknij lewym przyciskiem myszy, aby ustawić niestandardowe źródło.",
-        "DragDropActorPlayer": "Przeciągnij i upuść aktora, przedmiot lub wpis do dziennika.",
+        "DragDropActor": "Przeciągnij i upuść aktora, przedmiot lub wpis w dzienniku lub kliknij lewym przyciskiem myszy, aby ustawić niestandardowe źródło.",
+        "DragDropActorPlayer": "Przeciągnij i upuść aktora, przedmiot lub wpis w dzienniku.",
         "DragDropRewards": "Przeciągnij i upuść elementy tutaj, aby dodać je jako nagrody.",
-        "GMNotes": "Notatki GM:",
+        "GMNotes": "Notatki MG:",
         "Objective": "Cel",
         "Objectives": "Cele:",
         "Reward": "Nagroda",
         "Rewards": "Nagrody:"
       },
       "Management": {
-        "AddSubquest": "Dodaj misję podrzędną",
-        "ConfigurePermissions": "Konfiguruj Uprawnienia",
-        "QuestBranching": "Zadania podrzędne:",
-        "QuestSettings": "Ustawienia Misji:",
-        "SplashArt": "Sztuka Rozchlapania:",
-        "SplashInfo": "Kliknij, aby ustawić obraz.",
-        "SplashQuestIcon": "Ustaw jako ikonę misji"
+        "AddSubquest": "Dodaj Zadanie Podrzędne",
+        "ConfigurePermissions": "Zarządzaj Uprawnieniami",
+        "QuestBranching": "Zadania Podrzędne:",
+        "QuestSettings": "Ustawienia Zadania:",
+        "SplashArt": "Grafika Zadania:",
+        "SplashInfo": "Kliknij, aby ustawić grafikę dla zadania.",
+        "SplashQuestIcon": "Ustaw jako ikonę zadania"
       },
       "Notifications": {
-        "BadUUID": "Nie można pobrać dokumentu dla UUID: '{uuid}'.",
-        "WrongDocType": "Forien's Quest Log akceptuje tylko aktorów świata / kompendium, przedmioty i wpisy do dziennika jako zleceniodawców zadań.",
-        "WrongItemType": "Forien's Quest Log akceptuje tylko przedmioty ze świata i kompendium jako nagrody."
+        "BadUUID": "Nie można pozyskać dokumentu dla UUID: '{uuid}'.",
+        "WrongDocType": "Forien's Quest Log akceptuje jako zleceniodawców zadań tylko aktorów świata / kompendium, przedmioty i wpisy w dzienniku.",
+        "WrongItemType": "Forien's Quest Log akceptuje jako nagrody tylko przedmioty ze świata i kompendium."
       },
       "Tabs": {
         "Details": "Szczegóły",
-        "GMNotes": "Notatki GM",
-        "QuestManagement": "Zarządzaj Misją"
+        "GMNotes": "Notatki MG",
+        "QuestManagement": "Zarządzaj Zadaniem"
       },
-      "Title": "Szczegóły Misji - {name}",
+      "Title": "Szczegóły Zadania - {name}",
       "Tooltips": {
-        "AddCustom": "Dodaj zdefiniowane przez użytkownika",
+        "AddCustom": "Dodaj Niestandardowe",
         "AddObjective": "Dodaj Cel",
-        "ChangeSplashPos": "Zmień pozycję obrazu powitalnego.",
-        "DeleteQuestGiver": "Usuń zleceniodawcę misji.",
-        "DeleteSplash": "Usuń grafikę pluśnięcie.",
+        "ChangeSplashPos": "Zmień pozycję grafiki.",
+        "DeleteQuestGiver": "Usuń zleceniodawcę zadania.",
+        "DeleteSplash": "Usuń grafikę.",
         "HideAll": "Schowaj wszystko",
         "LockAll": "Zablokuj wszystko",
-        "PrimaryQuestSet": "Kliknij, aby ustawić misję główną.",
-        "PrimaryQuestUnset": "Kliknij, aby rozbroić misję główną.",
+        "PrimaryQuestSet": "Kliknij, aby ustawić jako zadanie główne.",
+        "PrimaryQuestUnset": "Kliknij, aby usunąć status zadania głównego.",
         "RewardHidden": "Nagroda jest ukryta. Kliknij, aby pokazać.",
         "RewardLocked": "Nagroda jest zablokowana. Kliknij, aby odblokować.",
         "RewardLockedPlayer": "Nagroda jest zablokowana.",
         "RewardUnlocked": "Nagroda jest odblokowana. Kliknij, aby zablokować.",
         "RewardUnlockedPlayer": "Nagroda jest odblokowana.",
         "RewardVisible": "Nagroda jest widoczna. Kliknij, aby ukryć.",
-        "ShowAll": "Pokazać wszystko",
+        "ShowAll": "Pokaż wszystko",
         "TaskHidden": "Zadanie jest ukryte. Kliknij, aby pokazać.",
         "TaskVisible": "Zadanie jest widoczne. Kliknij, aby ukryć.",
-        "ToggleImage": "Przełącz obraz Aktora/Tokenu.",
-        "UnlockAll": "Odblokuj wszystkie",
-        "ViewSplashArt": "Obejrzeć sztuka rozchlapania."
+        "ToggleImage": "Przełącz obraz Aktora/Żetonu.",
+        "UnlockAll": "Odblokuj wszystko",
+        "ViewSplashArt": "Podejrzyj grafikę."
       }
     },
     "QuestTracker": {
-      "NoPrimary": "Brak dostępnych głównych zadań.",
-      "Title": "Śledzenie Misji",
+      "NoPrimary": "Brak dostępnych zadań głównych.",
+      "Title": "Śledzenie Zadań",
       "Tooltips": {
         "BackgroundShow": "Kliknij, aby pokazać tło.",
         "BackgroundUnshow": "Kliknij, aby tło było przezroczyste.",
         "PrimaryQuestShow": "Kliknij, aby wyświetlić główne zadanie.",
-        "PrimaryQuestUnshow": "Kliknij, aby wyświetlić wszystkie misje."
+        "PrimaryQuestUnshow": "Kliknij, aby wyświetlić wszystkie zadania."
       }
     },
     "QuestTypes": {
       "Labels": {
-        "Active": "W trakcie",
-        "active": "w trakcie",
+        "Active": "Trwające",
+        "active": "trwające",
         "Available": "Dostępne",
         "available": "dostępne",
         "Completed": "Zakończone",
         "completed": "zakończone",
         "Failed": "Nieudane",
         "failed": "nieudane",
-        "InActive": "Nieaktywny",
-        "inactive": "nieaktywny",
-        "Status": "Misja to {statusLabel}."
+        "InActive": "Nieaktywne",
+        "inactive": "nieaktywne",
+        "Status": "Stan zadania: {statusLabel}."
       },
       "Tooltips": {
         "SetActive": "Ustaw na Aktywną",
         "SetAvailable": "Ustaw jako Dostępną",
         "SetCompleted": "Ustaw jako Zakończoną",
         "SetFailed": "Ustaw jako Nieudaną",
-        "SetInactive": "Ustaw jako Nieaktywne",
+        "SetInactive": "Ustaw jako Nieaktywną",
         "Status": "Status: {statusI18n}"
       }
     },
@@ -188,21 +188,21 @@
         "EnableHint": "Zaznacz, aby umożliwić graczom przyjmowanie Zadań z zakładki Dostępne."
       },
       "allowPlayersCreate": {
-        "Enable": "Gracze mogą tworzyć Questy",
-        "EnableHint": "Zaznacz, aby umożliwić graczom tworzenie zadań. Zadania stworzone przez graczy pojawią się w zakładce Dostępne z uprawnieniami do edycji gracza. WYMAGA uprawnienia rdzenia do tworzenia dziennika."
+        "Enable": "Gracze mogą tworzyć Zadania",
+        "EnableHint": "Zaznacz, aby umożliwić graczom tworzenie zadań. Zadania stworzone przez graczy pojawią się w zakładce Dostępne z uprawnieniami do edycji gracza. WYMAGA uprawnienia rdzeniowego: \"Tworzenie Dziennika\"."
       },
       "allowPlayersDrag": {
-        "Enable": "Zezwalaj na przeciąganie nagród gracza",
-        "EnableHint": "Zaznacz, aby umożliwić graczom przeciąganie nagród z okna szczegółów misji do posiadanych aktorów."
+        "Enable": "Gracze mogą przeciągać nagrody",
+        "EnableHint": "Zaznacz, aby umożliwić graczom przeciąganie nagród z okna szczegółów zadań do posiadanych aktorów."
       },
       "countHidden": {
-        "Enable": "Policz ukryte zadania",
-        "EnableHint": "Jeśli zaznaczone, liczba ukończonych/ogółem zadań będzie obejmować zadania ukryte."
+        "Enable": "Wlicz ukryte zadania",
+        "EnableHint": "Jeśli zaznaczone, liczba stosunek zasdań ukończonych do zadań ogółem będzie wliczać zadania ukryte."
       },
       "defaultPermissionLevel": {
-        "Enable": "Domyślny poziom uprawnień do misji",
-        "EnableHint": "Ustawia domyślny poziom uprawnień podczas tworzenia nowych misji.",
-        "NONE": "Żaden",
+        "Enable": "Domyślny poziom uprawnień do zadań",
+        "EnableHint": "Ustawia domyślny poziom uprawnień podczas tworzenia nowych zadań.",
+        "NONE": "Brak",
         "OBSERVER": "Obserwator",
         "OWNER": "Właściciel"
       },
@@ -212,43 +212,43 @@
       },
       "hideFQLFromPlayers": {
         "Enable": "Ukryj dziennik zadań przed graczami",
-        "EnableHint": "Po włączeniu ta opcja ukrywa dziennik zadań przed wszystkimi graczami. Tylko użytkownicy na poziomie GM będą mieli dostęp do dziennika zadań."
+        "EnableHint": "Po włączeniu ta opcja ukrywa dziennik zadań przed wszystkimi graczami. Tylko użytkownicy na poziomie MG będą mieli dostęp do dziennika zadań."
       },
       "navStyle": {
         "bookmarks": "Zakładki",
         "classic": "Klasyczne zakładki",
         "Enable": "Styl Nawigacji",
-        "EnableHint": "Zdecyduj, jak powinna być wyświetlana nawigacja w dzienniku misji."
+        "EnableHint": "Zdecyduj, jak powinna być wyświetlana nawigacja w dzienniku zadań."
       },
       "notifyRewardDrop": {
-        "Enable": "Pokaż powiadomienia o zrzuceniu nagrody",
-        "EnableHint": "Zaznacz, aby zobaczyć powiadomienia interfejsu użytkownika, gdy nagrody za misje zostaną upuszczone na arkusze graczy."
+        "Enable": "Pokaż powiadomienia o nagrodach",
+        "EnableHint": "Zaznacz, aby pokazać powiadomienia UI, gdy nagrody za zadania zostaną przemieszczone na arkusze graczy."
       },
       "questTrackerResizable": {
-        "Enable": "Zmiana Rozmiaru śledzenia misji",
-        "EnableHint": "Zaznacz, aby umożliwić ręczną zmianę rozmiaru z Śledzenie misji."
+        "Enable": "Zmiana rozmiaru okna Śledzenia Zadań",
+        "EnableHint": "Zaznacz, aby umożliwić ręczną zmianę rozmiaru okna Śledzenia zadań."
       },
       "showFolder": {
-        "Enable": "Pokaż Folder Misji",
-        "EnableHint": "Zaznacz, aby wyświetlić folder danych misji w zakładce Dziennik. Wyłącznie do celów DEBUGOWANIA."
+        "Enable": "Pokaż Folder Zadań",
+        "EnableHint": "Zaznacz, aby wyświetlić folder danych zadań w zakładce Dziennik. Wyłącznie do celów DEBUGOWANIA."
       },
       "showTasks": {
-        "default": "Pokaż Zadania: gotowe/ogółem",
-        "Enable": "Pokaż zadania w Dzienniku Misji",
-        "EnableHint": "Zdecyduj, czy lub jak wyświetlać liczbę celów obok tytułu zadania w dzienniku zadań. Nie ma to wpływu na podgląd zadania.",
+        "default": "Pokaż Zadania: ukończone/ogółem",
+        "Enable": "Pokaż zadania w Dzienniku Zadań",
+        "EnableHint": "Zdecyduj, czy i jak wyświetlać liczbę celów obok tytułu zadania w dzienniku zadań. Nie ma to wpływu na podgląd zadania.",
         "no": "Ukryj kolumnę „Cele”",
-        "onlyCurrent": "Pokaż cele: gotowe"
+        "onlyCurrent": "Pokaż ukończone cele"
       },
       "trustedPlayerEdit": {
-        "Enable": "Zezwalaj na edycję misji zaufanych graczy",
-        "EnableHint": "Zaznacz, aby zaufani gracze mogli mieć rozszerzone możliwości edycji misji i kontroli statusu nad misjami, których są właścicielami."
+        "Enable": "Zezwalaj na edycję zadan Zaufanym Graczom",
+        "EnableHint": "Zaznacz, aby zaufani gracze mogli mieć rozszerzone możliwości edycji zadań i kontroli statusu nad zadaniami, których są właścicielami."
       }
     },
     "Tooltips": {
       "Delete": "Usuń",
-      "Edit": "Edytować",
+      "Edit": "Edytuj",
       "HiddenQuestNoPlayers": "To zadanie jest ukryte przed wszystkimi graczami.",
-      "PrimaryQuest": "Główny Misja"
+      "PrimaryQuest": "Zadanie Główne"
     }
   }
 }
